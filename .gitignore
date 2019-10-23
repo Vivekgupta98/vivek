@@ -1,0 +1,5 @@
+*.xml
+*.ast
+*.out
+make_log.txt
+
