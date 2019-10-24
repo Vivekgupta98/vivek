@@ -1,12 +1,10 @@
-#include <iostream>
-using namespace std;
-
+int x;
 class Base
 {
     public:
     virtual void show()
     {
-        cout << "Base class\n";
+        x=4;
     }
 };
 
@@ -15,7 +13,7 @@ class Derived:public Base
     public:
     void show()
     {
-        cout << "Derived Class\n";
+        x=5;
     }
 };
 
